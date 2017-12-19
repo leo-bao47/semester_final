@@ -13,7 +13,8 @@ def list_travel(list_of_travel, travel):
 
 		if info[5] == travel:
 			list_of_travel.append(info[1])
-
+		else:
+			list_of_travel += 'a'
 	return list_of_travel
 
 def list_wheel(list_of_wheel, wheel):
@@ -22,6 +23,8 @@ def list_wheel(list_of_wheel, wheel):
 
 		if info[3] == wheel:
 			list_of_wheel.append(info[1])
+		else:
+			list_of_wheel += 'b'
 
 	return list_of_wheel
 
@@ -32,37 +35,27 @@ def list_price_range(list_of_price, price):
 
 		if info[4] == price:
 			list_of_price.append(info[1])
+		else:
+			list_of_price += 'c'
 
 	return list_of_price
 
-list_price_range(list_of_price, "3800")
-list_wheel(list_of_wheel, "29")
-list_travel(list_of_travel, "90")
+
+p_list = list_price_range(list_of_price, "3500")
+t_list = list_travel(list_of_travel, "120")
+w_list = list_wheel(list_of_wheel, "29")
+
+a = p_list
+b = t_list
+c = w_list
+
 
 def compare_lists():
-	price_travel_compare = []
-	for i in list_of_price:
-		if list_of_price(i) == list_of_travel(i):
-			price_travel_compare += i
+	new_list = []
+	for element in a:
+		if element in b:
+			new_list.append(element)
+	return new_list
 
-	final_list = []
-	for i in price_travel_compare:
-		if list_of_wheel(i) == price_travel_compare(i):
-			final_list += i
-
-	return final_list
-
+print "This/These bike(s) fulfill your criteria:"
 print compare_lists()
-
-"""def bike_finder(list_price_range, list_wheel, list_travel, price, travel, wheel):
-	print "These are the bikes that match your price range:"
-	print list_price_range(list_of_price, price)
-	print "------"
-	print "These are the bikes that match your travel requirements:"
-	print list_travel(list_of_travel, travel)
-	print "------"
-	print "These are the bikes that match your desired wheel size:"
-	print list_wheel(list_of_wheel, wheel)
-	print "------"
-
-bike_finder(list_price_range, list_wheel, list_travel, "3800", "90", "29")"""
