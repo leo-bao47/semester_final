@@ -2,32 +2,82 @@ Make,Model,Material,Wheel Size,Price,Travel
 Giant,Glory 2,AL,27,3150,200
 Giant,Glory Advanced 1,CF,27,5500,200
 Giant,Glory Advanced 2,CF,27,8000,200
-,,,,,
-,,,,,
-Giant,Anthem,AL,27,2200,110
-Giant,Anthem,AL,27,2600,110
-Giant,Anthem,AL,29,3750,90
-Giant,Anthem,CF,27,4000,110
-Giant,Anthem,CF,29,3900,90
-Giant,Anthem,CF,29,4900,90
-Giant,Anthem,CF,29,8500,90
-Giant,Anthem,CF,27,8000,110
-Giant,Anthem,CF,27,,110
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
-Giant,Reign 2,AL,27,3300,
-Giant,,,,,
-Giant,,,,,
-Giant,,,,,
+Giant,Anthem 3,AL,27,2200,110
+Giant,Anthem 2,AL,27,2600,110
+Giant,Anthem 29 1,AL,29,3750,90
+Giant,Anthem Advanced 2,CF,27,4000,110
+Giant,Anthem Advanced 29,CF,29,3900,90
+Giant,Anthem Advanced Pro 29 1,CF,29,4900,90
+Giant,Anthem Advanced Pro 29 0,CF,29,8500,90
+Giant,Anthem Advanced 0,CF,27,8000,110
+Giant,Trance 3,AL,27,2300,140
+Giant,Trance 2,AL,27,2600,140
+Giant,Trance Advanced 2,CF,27,4000,140
+Giant,Trance Advanced 1,CF,27,5000,140
+Giant,Trance Advanced 0,CF,27,8000,140
+Giant,Stance 2,AL,27,1500,120
+Giant,Stance 1,AL,27,1900,120
+Giant,Reign 2,AL,27,2700,160
+Giant,Reign SX,AL,27,4000,170
+Giant,Reign Advanced 1,CF,27,5400,160
+Giant,Reign Advanced 0,CF,27,8200,160
+Niner,RIP 9 RDO 4-Star Push Edition,CF,29,7600,150
+Niner,JET 9 RDO 1-Star,CF,29,3750,120
+Niner,RKT 9 RDO 1-Star,CF,29,3800,90
+Niner,RKT 9 RDO 2-Star,CF,29,4300,90
+Niner,RKT 9 RDO 3-Star,CF,29,5200,90
+Niner,RKT 9 RDO 4-Star,CF,29,6300,90
+Niner,RKT 9 RDO 5-Star,CF,29,7300,90
+Niner,JET 9 RDO 2-Star,CF,29,4500,120
+Niner,JET 9 RDO 3-Star,CF,29,5300,120
+Niner,JET 9 RDO 4-Star,CF,29,6500,120
+Niner,JET 9 RDO 5-Star,CF,29,8900,120
+Niner,RIP 9 RDO 2-Star,CF,29,4700,150
+Niner,RIP 9 RDO 3-Star,CF,29,5500,150
+Niner,RIP 9 RDO 4-Star,CF,29,6700,150
+Niner,RIP 9 RDO 5-Star,CF,29,9100,150
+YT,Jeffsy AL 2 27,AL,27,2000,140
+YT,Jeffsy AL 1 27,Al,27,2300,140
+YT,Jeffsy CF 2 27,CF,27,3000,140
+YT,Jeffsy CF 1 27,CF,27,3500,140
+YT,Jeffsy CF PRO 27,CF,27,4200,140
+YT,Jeffsy AL 2 29,AL,29,2000,130
+YT,Jeffsy AL 1 29,AL,29,2300,130
+YT,Jeffsy CF 2 29,CF,29,3000,130
+YT,Jeffsy CF 1 29,CF,29,3500,130
+YT,Jeffsy CF PRO 29,CF,29,4200,130
+YT,Capra AL 2,AL,27,2000,165
+YT,Capra AL 1,AL,27,2500,165
+YT,Capra CF 2,CF,27,3000,165
+YT,Capra CF 1,CF,27,3500,165
+YT,Capra CF PRO,CF,27,4200,165
+YT,Tues AL,AL,27,2000,200
+YT,Tues CF Comp,CF,27,3000,200
+YT,Tues CF PRO,CF,27,3400,200
+Specialized,Epic Comp,AL,29,2900,100
+Specialized,Epic Comp Carbon,CF,29,4000,100
+Specialized,Epic Expert,CF,29,5200,100
+Specialized,Epic Pro,CF,29,6500,100
+Specialized,S-WORKS Epic XX1,CF,29,9500,100
+Specialized,S-WORKS Epic XTR Di-2,CF,29,10000,100
+Specialized,Camber 29,AL,29,1650,120
+Specialized,Camber 27.5,AL,27,1650,130
+Specialized,Camber Comp 29,AL,29,2450,120
+Specialized,Camber Comp 27.5,AL,27,2450,130
+Specialized,Camber Comp Carbon 29,CF,29,3500,120
+Specialized,Camber Comp Carbon 27.5,CF,27,3500,130
+Specialized,Camber Expert 29,CF,29,4400,120
+Specialized,Camber Expert 27.5,CF,27,4400,130
+Specialized,S-WORKS Camber 29,CF,29,8200,120
+Specialized,Enduro Comp 29,AL,29,2800,165
+Specialized,Enduro Comp 27.5,AL,27,2800,170
+Specialized,Enduro Elite 29,CF,29,4500,165
+Specialized,Enduro Elite 27.5,CF,27,4500,170
+Specialized,Enduro Coil 29,CF,29,5800,165
+Specialized,Enduro Pro 29,CF,29,6500,165
+Specialized,Enduro Pro 27.5,CF,27,6500,170
+Specialized,S-WORKS Enduro 29,CF,29,8500,165
+Specialized,S-WORKS Enduro 27.5,CF,27,8500,170
+Specialized,Demo 8 I Alloy,AL,27,3500,200
+Specialized,Demo 8 I Carbon,CF,27,5500,200
+Specialized,S-WORKS Demo 8,CF,27,7500,200
