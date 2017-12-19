@@ -26,3 +26,13 @@ def list_wheel(list_of_bikes, wheel):
 			list_of_bikes.append(info[2])
 
 	return list_of_bikes
+
+def list_price_range(list_of_bikes, price):
+	for i in range(1, len(lines)):
+		info = lines[i].rstrip().split(",")
+
+		if info[4] == (price +- 500):
+			list_of_bikes.append(info[1])
+			list_of_bikes.append(info[2])
+
+	return list_of_bikes
