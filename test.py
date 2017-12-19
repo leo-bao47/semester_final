@@ -1,7 +1,5 @@
-l = [1, 2, 3]
-b = [2, 2, 2]
+from final2 import *
 
-def compare():
-	set(l) & set(b)
-
-print compare()
+print "This/These bike(s) fulfill your criteria:"
+print determine_bikes('8000', '200', '27')
+print "------"

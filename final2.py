@@ -1,5 +1,4 @@
 import sys
-
 data = open("bikes.csv", "r")
 lines = data.readlines()
 
@@ -40,22 +39,26 @@ def list_price_range(list_of_price, price):
 
 	return list_of_price
 
+def determine_bikes(price, travel, wheel):
+	p_list = list_price_range(list_of_price, price)
+	t_list = list_travel(list_of_travel, travel)
+	w_list = list_wheel(list_of_wheel, wheel)
 
-p_list = list_price_range(list_of_price, "3500")
-t_list = list_travel(list_of_travel, "120")
-w_list = list_wheel(list_of_wheel, "29")
-
-a = p_list
-b = t_list
-c = w_list
+	a = p_list
+	b = t_list
+	c = w_list
 
 
-def compare_lists():
-	new_list = []
-	for element in a:
-		if element in b:
-			new_list.append(element)
-	return new_list
+	def compare_lists():
+		new_list = []
+		for element in a:
+			if element in b:
+				new_list.append(element)
+		final_list = []
+		for element in new_list:
+			if element in c:
+				final_list.append(element)
 
-print "This/These bike(s) fulfill your criteria:"
-print compare_lists()
+		return final_list
+
+	return compare_lists()
